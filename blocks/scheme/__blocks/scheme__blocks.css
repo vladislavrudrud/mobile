@@ -1,0 +1,15 @@
+.scheme__blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap:62px 30px;
+    margin: 0 auto 110px;
+}
+  @media (max-width: 700px) {
+    .scheme__blocks {
+        align-items: center;
+        justify-content: center;
+
+    }
+  }

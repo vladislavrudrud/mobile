@@ -1,0 +1,15 @@
+.question__caption {
+color: #838383;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 20px auto 90px;
+}
+@media (max-width: 900px) {
+    .question__caption {
+        font-size: 8px;
+        margin: 10px auto 40px;
+    }
+  }

@@ -1,0 +1,19 @@
+.cooperation__text {
+color: #FFF;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+margin: 48px 0 0 0;
+vertical-align: middle;
+z-index: 1;
+}
+@media (max-width: 740px) {
+    .cooperation__text{
+        font-size: 9.413px;
+        height: 47px;
+        margin: 15px 0 30px 0;
+    }
+  }

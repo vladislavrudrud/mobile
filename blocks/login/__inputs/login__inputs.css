@@ -1,0 +1,14 @@
+.login__inputs {
+    margin: 0 auto 32px;
+    width: 422px;
+    display: flex;
+    flex-direction: column;
+
+}
+@media (max-width: 650px) {
+    .login__inputs{
+        width: 271px;
+        margin: 0 auto 20.5px;
+
+    }
+  }

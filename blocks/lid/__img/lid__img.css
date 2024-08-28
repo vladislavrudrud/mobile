@@ -1,0 +1,9 @@
+.lid__img {
+    height: 258px;
+}
+@media (max-width:700px) {
+    .lid__img{
+        height: 280px;
+
+    }
+}

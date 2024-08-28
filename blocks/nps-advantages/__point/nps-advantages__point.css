@@ -1,0 +1,6 @@
+.nps-advantages__point {
+    margin-bottom: 20px;
+}
+.nps-advantages__point:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,25 @@
+.line-operator {
+    position: absolute;
+    left: -66px;
+    bottom: 58px;
+}
+.line-flash {
+    position: absolute;
+    top:-57px;
+    right: 95px;
+}
+.line-mobile {
+    position: absolute;
+    top: -30px;
+    right: 5px;
+}
+.line-sms {
+    position: absolute;
+    bottom: -74px;
+    left: 150px;
+}
+.line-voice {
+    position: absolute;
+    bottom: -110px;
+    left: 50px;
+}

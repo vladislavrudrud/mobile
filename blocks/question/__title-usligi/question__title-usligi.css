@@ -1,0 +1,11 @@
+.question__title-uslugi {
+    width: 845px;
+}
+@media (max-width: 900px) {
+    .question__title-uslugi{
+       width: 227px;
+       height: 25px;
+       overflow: hidden;
+    }
+     
+   }

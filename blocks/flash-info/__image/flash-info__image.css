@@ -1,0 +1,15 @@
+.flash-info__block-image {
+    height: 391px;
+}
+@media (max-width: 1400px) {
+    .flash-info__block-image {
+        height: 328px;
+
+    }
+  }
+@media (max-width: 740px) {
+    .flash-info__block-image {
+        height: 258px;
+
+    }
+  }

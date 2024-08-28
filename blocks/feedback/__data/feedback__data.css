@@ -1,0 +1,11 @@
+.feedback__data {
+    margin: 97px 0 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+@media (max-width: 1000px) {
+    .feedback__data {
+        margin: 0 0 30px;
+    }
+  }

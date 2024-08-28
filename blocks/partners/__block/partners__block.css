@@ -1,0 +1,16 @@
+.partners__block {
+    width:  49.65%;
+    margin: 0 235px 0 0;
+}
+.partners__block:last-child {
+    margin: 102px 0 0 224px;
+}
+@media (max-width: 1000px) {
+    .partners__block {
+        width:  90%;
+        margin: 0 0 0 0;
+    }
+    .partners__block:last-child {
+        margin: 30px 0 0 0;
+    }
+  }

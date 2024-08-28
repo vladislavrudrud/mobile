@@ -1,0 +1,18 @@
+.schema-work__caption {
+    color: var(--main-black, #141414);
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 61.56%;
+margin: 0 auto 80px;
+}
+@media (max-width: 700px) {
+    .schema-work__caption{
+       font-size: 12px;
+       width: 94%;
+       text-align: center;
+       margin: 0 auto 60px;
+    }
+     
+   }

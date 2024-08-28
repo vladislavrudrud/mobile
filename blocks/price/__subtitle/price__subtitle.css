@@ -1,0 +1,9 @@
+.price__subtitle {
+    margin: 0;
+}
+@media (max-width: 740px) {
+    .price__subtitle {
+        font-size: 12px;
+
+    }
+  }

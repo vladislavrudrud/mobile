@@ -1,0 +1,13 @@
+@media (max-width: 1050px) {
+    .uslugi-calls-price__list {
+        width: 86.94%;
+    }
+     
+   }
+   @media (max-width: 550px) {
+    .uslugi-calls-price__list {
+        padding-left: 0;
+        list-style-type: none;
+    }
+     
+   }

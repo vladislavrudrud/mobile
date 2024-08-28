@@ -1,0 +1,22 @@
+.authorization-phone__title {
+    width: 76%;
+    margin: 65px auto 71px;
+    color:  #141414;
+    text-align: center;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase; 
+    }
+    @media (max-width: 1900px) {
+        .authorization-phone__title{
+            font-size: 18px;
+        }
+      }
+      @media (max-width: 900px) {
+        .authorization-phone__title{
+            display: none;
+        }
+      }

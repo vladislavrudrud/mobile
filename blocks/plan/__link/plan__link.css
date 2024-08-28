@@ -1,0 +1,17 @@
+.plan__link {
+    background: linear-gradient(180deg, #73F7B3 0%, #60D7E5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 17.33px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 auto 0 56px;
+} 
+@media (max-width:550px) {
+    .plan__link {
+        margin: 0 ;
+        font-size: 8px;
+    }
+}

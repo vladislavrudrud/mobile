@@ -1,0 +1,15 @@
+.target__img {
+    width: 500px;
+    height: 300px;
+}
+@media (max-width: 1200px) {
+    .target__img {
+        width: 400px;
+    }     
+   }
+   @media (max-width: 700px) {
+    .target__img {
+        width: 350px;
+        height: 200px;
+    }     
+   }

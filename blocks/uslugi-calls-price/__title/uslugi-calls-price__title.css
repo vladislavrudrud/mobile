@@ -1,0 +1,18 @@
+.uslugi-calls-price__title {
+width: 274px;
+margin: 0 auto 60px;
+color: var(--main-black, #141414);
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+@media (max-width: 800px){
+    .uslugi-calls-price__title{
+        font-size: 22px;
+        width: 287px;
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+}

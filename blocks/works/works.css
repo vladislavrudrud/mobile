@@ -1,0 +1,34 @@
+.works {
+width: 1410px;
+margin: 0 auto 220px;
+height: 460px;
+position: relative;
+}
+@media (max-width: 1500px) {
+    .works {
+        width: 1150px;
+    }
+     
+   }
+   @media (max-width: 1200px) {
+    .works {
+        width: 900px;
+    }
+     
+   }
+   @media (max-width: 950px) {
+    .works {
+        width: 650px;
+    }
+     
+   }
+   @media (max-width: 800px) {
+    .works {
+        width: 56.74%;
+        position: static;
+        height: auto;
+        margin: 0 auto 61px;
+        
+    }
+     
+   }

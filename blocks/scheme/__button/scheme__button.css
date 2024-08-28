@@ -1,0 +1,24 @@
+.scheme__button {
+    width: 229.226px;
+    height: 50.414px;
+border-radius: 7.877px;
+background: linear-gradient(90deg, #62D9E2 1.75%, #73F6B4 94.18%);
+color: #FFF;
+text-align: center;
+font-size: 17.33px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+border: none;
+margin: 0 109px;
+}
+@media (max-width: 700px) {
+    .scheme__button{
+        width: 169.368px;
+height: 37.249px;
+font-size: 12px;
+margin: 0 80px;
+
+    }
+  }

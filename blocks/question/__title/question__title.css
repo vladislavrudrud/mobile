@@ -1,0 +1,18 @@
+.question__title {
+color: var(--main-black, #141414);
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+width: 410px;
+margin: 0 auto 70px;
+text-align: center;
+}
+@media (max-width: 900px) {
+    .question__title {
+        width: 203px;
+        font-size: 22px;
+        margin: 0 auto 30px;
+    }
+  }

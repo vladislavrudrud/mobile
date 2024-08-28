@@ -1,0 +1,30 @@
+.uslugi-calls-info__image {
+    margin: 38px 20.38px 20px 78px;
+}
+@media (max-width: 1440px) {
+    .uslugi-calls-info__image {
+        margin: 38px 20.38px 20px 28px;
+    }
+     
+   }
+   @media (max-width: 1200px) {
+    .uslugi-calls-info__image {
+        width: 50px;
+        margin: 38px 10px 20px 28px;
+    }
+     
+   }
+   @media (max-width: 1000px) {
+    .uslugi-calls-info__image {
+        width: 90px;
+        margin: 38px 30px 20px 108px;
+    }
+     
+   }
+   @media (max-width: 580px) {
+    .uslugi-calls-info__image {
+        width: 67px;
+        margin: 30px 33px 16px 42px;
+    }
+     
+   }

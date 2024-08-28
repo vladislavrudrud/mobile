@@ -1,0 +1,8 @@
+.advantages-company__img {
+    margin: 0 auto;
+}
+@media (max-width: 770px) {
+    .advantages-company__img {
+        height: 90px;
+    }
+  }

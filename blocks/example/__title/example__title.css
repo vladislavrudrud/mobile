@@ -1,0 +1,21 @@
+.example__title {
+    background: linear-gradient(180deg, #73F7B3 0%, #60D7E5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+width: 94.5%;
+margin-bottom: 85px;
+}
+@media (max-width:700px) {
+    .example__title {
+        margin: 0 auto 40px; 
+        font-size: 22px;
+        text-align: center;
+
+    }
+}

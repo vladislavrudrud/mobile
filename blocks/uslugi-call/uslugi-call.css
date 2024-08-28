@@ -1,0 +1,12 @@
+@media (max-width: 1400px) {
+    .uslugi-call {
+     flex-direction: row;
+    }
+     
+   }
+   @media (max-width: 1100px) {
+    .uslugi-call {
+     flex-direction: column;
+    }
+     
+   }

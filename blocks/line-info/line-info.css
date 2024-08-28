@@ -1,0 +1,9 @@
+.line-info{
+   margin-top: 100px;
+   margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .line-info{
+      margin-top: 30px;
+    }
+  }

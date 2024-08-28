@@ -1,0 +1,25 @@
+.lid__title {
+    background: linear-gradient(180deg, #73F7B3 0%, #60D7E5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+width: 1450px;
+margin: 0;
+}
+@media (max-width:1700px) {
+    .lid__title{
+        width: 89.06%;
+
+    }
+}
+@media (max-width:700px) {
+    .lid__title{
+       font-size: 22px;
+
+    }
+}

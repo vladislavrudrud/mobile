@@ -1,0 +1,8 @@
+.call-api__list {
+    list-style-type: circle;
+}
+@media (max-width:700px) {
+    .call-api__list {
+        padding-left: 0;
+    }
+}

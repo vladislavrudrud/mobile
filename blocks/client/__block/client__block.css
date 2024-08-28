@@ -1,0 +1,6 @@
+.client__block {
+    margin-bottom: 60px;
+}
+.client__block:last-child {
+    margin-bottom: 0;
+}

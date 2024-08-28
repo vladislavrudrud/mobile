@@ -1,0 +1,26 @@
+.info-price__title {
+color: var(--main-black, #141414);
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+width: 69.32%;
+margin: 0 auto 60px;
+text-align: center;
+}
+@media (max-width: 1050px) {
+    .info-price__title {
+        font-size: 30px;
+    }
+     
+   }
+   @media (max-width: 700px) {
+    .info-price__title {
+        font-size: 22px;
+        width:  80.03%;
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+     
+   }

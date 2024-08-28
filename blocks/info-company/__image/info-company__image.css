@@ -1,0 +1,19 @@
+.info-company__image {
+    height: 461.54px;
+    width: 480px;
+    margin: 125px auto 0 35px;
+}
+@media (max-width: 1520px) {
+    .info-company__image {
+        margin: 107px auto 0;
+      
+    }
+  }
+@media (max-width: 700px) {
+    .info-company__image {
+        width: 282px;
+        height: 280px;
+        order: 1;
+        margin: 20px auto 30px;
+    }
+  }

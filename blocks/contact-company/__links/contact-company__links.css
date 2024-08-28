@@ -1,0 +1,12 @@
+.contact-company__links {
+    padding-left: 0;
+    margin-left: 62px;
+    margin-top: 177px;
+    list-style-type: none;
+}
+@media (max-width: 900px) {
+    .contact-company__links{
+        margin-left: 4px;
+        margin-top: 55px;
+    }
+  }

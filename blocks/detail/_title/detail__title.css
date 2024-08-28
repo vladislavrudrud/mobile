@@ -1,0 +1,22 @@
+.detail__title {
+    width: 80%;
+    font-size: 40px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--main-black, #141414);
+margin: 100px auto 60px;
+}
+@media (max-width: 1400px) {
+    .detail__title {
+        font-size: 36px;
+    }
+  }
+  @media (max-width: 700px) {
+    .detail__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 40px auto 60px;
+    }
+  }

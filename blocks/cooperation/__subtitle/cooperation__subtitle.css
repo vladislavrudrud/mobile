@@ -1,0 +1,20 @@
+.cooperation__subtitle {
+color: #FFF;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 90.31%;
+margin: 20px auto 15px;
+visibility: hidden;
+z-index: 1;
+}
+@media (max-width: 740px) {
+    .cooperation__subtitle {
+        font-size: 5.413px;
+        width: 95%;
+        margin: 0 auto 0;
+        /* position: absolute; */
+    }
+  }

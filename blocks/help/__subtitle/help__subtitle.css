@@ -1,0 +1,18 @@
+.help__subtitle {
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--main-black, #141414);
+margin: 0 0 40px -20px;
+
+}
+@media (max-width: 600px) {
+    .help__subtitle{
+        font-size: 14px;
+        margin: 0 0 20px -20px;
+        line-height: 17px;
+
+    }
+  }

@@ -1,0 +1,14 @@
+.feedback__group {
+    width: 64.74%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+@media (max-width: 1000px) {
+    .feedback__group {
+        flex-direction: column;
+        width: 271px;
+    }
+  }

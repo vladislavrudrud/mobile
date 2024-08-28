@@ -1,0 +1,24 @@
+.question__button {
+border-radius: 10px;
+background: linear-gradient(90deg, #62D9E2 1.75%, #73F6B4 94.18%);
+width: 378px;
+height: 64px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+border-style: none;
+}
+@media (max-width: 900px) {
+    .question__button {
+        width: 206px;
+height: 33.942px;
+font-size: 12px;
+margin: 0 auto;
+
+    }
+  }

@@ -1,0 +1,27 @@
+.nps-example__text {
+color: var(--main-black, #141414);
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin: 0 0 29px 30px;
+}
+@media (max-width:1400px) {
+    .nps-example__text{
+       font-size: 16px;
+       margin: 0 0 10px 30px;
+
+    }
+}
+@media (max-width:600px) {
+    .nps-example__text{
+       font-size: 15px;
+
+    }
+}
+@media (max-width:500px) {
+    .nps-example__text{
+       font-size: 12px;
+
+    }
+}

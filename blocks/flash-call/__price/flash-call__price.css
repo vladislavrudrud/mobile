@@ -1,0 +1,15 @@
+.flash-call__price {
+    color: #000;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0 136px 10px 0;
+}
+@media (max-width: 740px) {
+    .flash-call__price {
+        width: 100%;
+       font-size: 12px;
+       margin: 0;
+    }
+  }

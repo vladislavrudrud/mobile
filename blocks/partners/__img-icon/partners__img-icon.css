@@ -1,0 +1,37 @@
+.partners__img-icon {
+    margin-left: 224px;
+    margin-top: 134px;
+    height: 80%;
+}
+@media (max-width: 1600px) {
+    .partners__img-icon{
+        margin-left: 60px;
+
+    }
+  }
+  @media (max-width: 1000px) {
+    .partners__img-icon{
+        display: none;
+
+    }
+  }
+  @media (min-width: 1000px) {
+    .partners__img-icon-min-width{
+        display: none;
+
+    }
+  }
+  @media (max-width: 999px) {
+    .partners__img-icon-min-width {
+        display: block;
+        height: 70%;
+        margin: auto 0 auto 30px;
+
+    }
+  }
+  @media (max-width: 800px) {
+    .partners__img-icon-min-width {
+        width: 124px;
+
+    }
+  }

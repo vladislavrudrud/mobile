@@ -1,0 +1,14 @@
+.price__caption {
+    color: #60D7E5;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 30px auto 0;
+}
+@media (max-width: 740px) {
+    .price__caption{
+        margin: 20px auto 0;
+        font-size: 12px;
+    }
+  }

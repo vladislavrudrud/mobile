@@ -1,0 +1,21 @@
+.title {
+    background: linear-gradient(180deg, #73F7B3 0%, #60D7E5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+@media (max-width:1400px) {
+    .title{
+        font-size: 28px;
+    }
+}
+@media (max-width:700px) {
+    .title{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,21 @@
+.header__number {
+    color: #72E6C2;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+@media (max-width: 1400px) {
+        .header__number {
+            margin-left: 28px;
+        }
+      }
+      @media (max-width: 1200px) {
+        .header__number {
+            margin-bottom: 60px;
+            margin-top: 30px;
+        }
+      }

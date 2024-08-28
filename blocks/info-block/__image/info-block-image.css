@@ -1,0 +1,8 @@
+ .info-block-image {
+    margin-left: 66px;
+}
+@media (max-width: 1200px) {
+    .info-block-image {
+        margin-left: 0;
+    }
+  }

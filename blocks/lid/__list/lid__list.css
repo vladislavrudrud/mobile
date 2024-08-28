@@ -1,0 +1,18 @@
+.lid__list {
+    color: #000;
+font-size: 17.33px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 0 39px;
+list-style-type: decimal;
+}
+@media (max-width:700px) {
+    .lid__list{
+        font-size: 10px;
+        margin: 0 0 39px;
+        padding-left: 10px;
+        margin: 0 0 30px;
+
+    }
+}

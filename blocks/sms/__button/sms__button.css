@@ -1,0 +1,25 @@
+.sms__button {
+    width: 385px;
+height: 64px;
+border-radius: 10px;
+background: linear-gradient(90deg, #62D9E2 1.75%, #73F6B4 94.18%);
+border: none;
+margin: 26px 0 0 0;
+color: #FFF;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+@media (max-width:700px) {
+    .sms__button{
+        width: 52.67%;
+        font-size: 12.095px;
+        height: 35.185px;
+        margin: 15px 0 0 0;
+        border-radius: 5.498px;
+        margin-bottom: 20px;
+
+    }
+}

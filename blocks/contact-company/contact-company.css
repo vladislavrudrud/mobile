@@ -1,0 +1,9 @@
+.contact-company {
+   margin: 120px auto;
+}
+@media (max-width: 900px) {
+    .contact-company{
+        width: 370px;
+        margin: 61 auto 61px;
+    }
+  }

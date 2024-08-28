@@ -1,0 +1,11 @@
+.uslugi-calls-info {
+    width: 73.44%;
+    margin: 0 auto 84px;
+}
+@media (max-width: 900px) {
+    .uslugi-calls-info{
+        width: 89.44%;
+        margin: 0 auto 60px;
+    }
+     
+   }

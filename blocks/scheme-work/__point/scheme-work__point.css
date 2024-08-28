@@ -1,0 +1,15 @@
+.schema-work__point {
+    margin-bottom: 28px;
+}
+.schema-work__point:last-child {
+    margin-bottom: 0;
+}
+.schema-work__point:first-child {
+    margin-top: 6px;
+}
+@media (max-width: 700px) {
+    .schema-work__point {
+        margin-bottom: 20px;
+    }
+     
+   }

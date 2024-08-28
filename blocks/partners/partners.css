@@ -1,0 +1,16 @@
+.partners {
+    width: 73.44%;
+    margin: 100px auto;
+}
+@media (max-width: 1400px) {
+    .partners{
+        width: 95%;
+
+    }
+  }
+  @media (max-width: 800px) {
+    .partners{
+        margin: 40px auto;
+
+    }
+  }

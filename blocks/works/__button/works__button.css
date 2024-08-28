@@ -1,0 +1,56 @@
+.works__button {
+    border-radius: 10px;
+background: linear-gradient(90deg, #62D9E2 1.75%, #73F6B4 94.18%);
+color: #FFF;
+width: 377.864px;
+height: 64px;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+border: none;
+top: 395px;
+right: 40px;
+position: absolute;
+z-index: 2;
+/* margin-top: -75px; */
+}
+.works__button:hover{
+    cursor: pointer;
+}
+@media (max-width: 1500px) {
+    .works__button {
+        width: 300.864px;
+        top: 335px;
+        right: 40px;
+    }
+     
+   }
+   @media (max-width: 1200px) {
+    .works__button {
+        width: 280px;
+        top: 280px;
+        right: 20px;
+    }
+     
+   }
+   @media (max-width: 950px) {
+    .works__button {
+        width: 200px;
+        height: 44px;
+        top: 220px;
+        right: 10px;
+        font-size: 18px;
+    }
+     
+   }
+   @media (max-width: 800px) {
+    .works__button {
+       position: static;
+       margin: 60px auto;
+       display: block;
+    }
+     
+   }

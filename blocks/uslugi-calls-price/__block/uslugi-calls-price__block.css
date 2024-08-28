@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+    .uslugi-calls-price__block {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0 22px;
+    }
+     
+   }

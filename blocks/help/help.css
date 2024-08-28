@@ -1,0 +1,17 @@
+.help {
+    margin: 100px 341px 120px 293px;
+}
+@media (max-width: 1800px) {
+    .help{
+        width:80%;
+        margin: 100px auto 120px auto;
+
+    }
+  }
+  @media (max-width: 600px) {
+    .help{
+        width:80%;
+        margin: 40px auto 60px auto;
+
+    }
+  }

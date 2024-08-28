@@ -1,0 +1,19 @@
+.nps-advantages__subtitle {
+    color: var(--main-black, #141414);
+font-size: 22px;
+font-style: normal;
+font-weight: 550;
+line-height: normal;
+}
+@media (max-width:1400px) {
+    .nps-advantages__subtitle {
+       font-size: 16px;
+
+    }
+}
+@media (max-width:700px) {
+    .nps-advantages__subtitle {
+       font-size: 12px;
+
+    }
+}

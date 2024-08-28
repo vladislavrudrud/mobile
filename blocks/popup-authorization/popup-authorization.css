@@ -1,0 +1,44 @@
+.popup-authorization {
+display: none;
+border-radius: 40px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+4,ffffff+135&0.38+4,0+135 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.38) 4.91%, rgba(255,255,255,0) 135.61%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(4.91%,rgba(255,255,255,0.38)), color-stop(135.61%,rgba(255,255,255,0))); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.38) 4.91%,rgba(255,255,255,0) 135.61%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  rgba(255,255,255,0.38) 4.91%,rgba(255,255,255,0) 135.61%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.38) 4.91%,rgba(255,255,255,0) 135.61%); /* IE10 preview */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.38) 4.91%,rgba(255,255,255,0) 135.61%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(50px);
+width: 341px;
+padding-top: 22px;
+padding-bottom: 25px;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.voice-block {
+    position: absolute;
+    top: -5px;
+    left: 100px;
+}
+.sms-block {
+    position: absolute;
+    bottom: 260px;
+    left: 92px;
+}
+.mobile-block {
+    position: absolute;
+    bottom: -36px;
+    right: 230px;
+}
+.flash-block {
+    position: absolute;
+    right: 93px;
+    top: 284px;
+}
+.operator-block {
+    position: absolute;
+    top: -191px;
+    right: 292px;
+}

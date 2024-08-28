@@ -1,0 +1,23 @@
+.info-price {
+    margin: 0 auto 120px;
+}
+.info-price-caption {
+    margin-bottom: 100px;
+}
+@media (max-width: 1400px) {
+    .info-price {
+        width: 98%;
+    }
+     
+   }
+   @media (max-width: 700px) {
+    .info-price {
+        width: 91.6%;
+        margin: 0 auto 44px;
+    }
+    .info-price-line {
+        height: 96px;
+        margin-bottom: 40px;
+    }
+     
+   }

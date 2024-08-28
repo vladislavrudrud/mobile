@@ -1,0 +1,18 @@
+.flash-call__img {
+    max-height: 414px;
+    margin-top: 36px;
+}
+@media (max-width: 1420px) {
+    .flash-call__img {
+        max-height: 466px;
+        width: 550px;
+        margin-top: 41px;
+    }
+  }
+  @media (max-width: 740px) {
+    .flash-call__img {
+        max-height: 266px;
+        width: 341px;
+        margin-top: 41px;
+    }
+  }

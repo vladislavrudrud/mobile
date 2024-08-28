@@ -1,0 +1,23 @@
+.info-block__text {
+color: var(--main-black, #141414);
+width: 600px;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+margin: 0 0 39.2px 0;
+}
+.margin{
+    margin: 0 0 39.2px 253.67px;
+}
+.margin-text {
+    margin:0 0 39.2px 0 ;
+}
+@media (max-width: 700px) {
+    .info-block__text{
+        width: 343px;
+        font-size: 12.003px;
+        margin: 0 0 22px 0;
+    }
+  }

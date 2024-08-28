@@ -1,0 +1,32 @@
+.info-price__button {
+    width: 292px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 10px;
+background: linear-gradient(90deg, #62D9E2 1.75%, #73F6B4 94.18%);
+color: #FFF;
+margin-right: 30px;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+border: none;
+}
+@media (max-width: 1050px) {
+    .info-price__button {
+        width: 252px;
+        height: 44px;
+    }
+     
+   }
+   @media (max-width: 700px) {
+    .info-price__button {
+        width: 130px;
+height: 34px;
+font-size: 12px;
+margin-right: 20px;
+    }
+     
+   }

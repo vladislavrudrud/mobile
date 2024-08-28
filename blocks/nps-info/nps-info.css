@@ -1,0 +1,11 @@
+.nps-info {
+    width: 73.7%;
+    margin: 65px auto 120px;
+}
+@media (max-width:500px) {
+    .nps-info{
+        width: 93.13%;
+        margin: 40px auto 60px;
+
+    }
+}

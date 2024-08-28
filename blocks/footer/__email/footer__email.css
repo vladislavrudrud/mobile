@@ -1,0 +1,10 @@
+.footer__email {
+    margin: 10px 0 50px;
+}
+@media (max-width: 765px) {
+    .footer__email{
+        font-size: 10.205px;
+        font-weight: 400px;
+        margin: 10px 0 65px;
+    }
+  }

@@ -1,0 +1,9 @@
+.api-margin-title {
+    margin: 100px auto 84px 0;
+    width: 88%;
+}
+@media (max-width: 700px) {
+    .api-margin-title {
+        margin: 40px auto  40px;
+    } 
+   }

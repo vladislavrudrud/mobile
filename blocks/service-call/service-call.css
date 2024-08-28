@@ -1,0 +1,31 @@
+.service-call .flash-call__text {
+    margin-right: 40px;
+    width: 900px;
+}
+.service-call .flash-call__text:nth-child(3) {
+    margin-top: 0;
+}
+@media (max-width:1400px) {
+    .service-call .flash-call__img {
+        margin-right: 40px;
+        width: 480px;
+    }
+}
+@media (max-width:740px) {
+    .service-call .flash-call__img {
+        margin-right: 40px;
+        width: 280px;
+    }
+}
+@media (max-width:1200px) {
+    .service-call .flash-call__text {
+        margin-right: 40px;
+        width: 650px;
+    }
+}
+@media (max-width:740px) {
+    .service-call .flash-call__text {
+        margin-right: 0;
+        width: 327px;
+    }
+}

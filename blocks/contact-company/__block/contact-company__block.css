@@ -1,0 +1,16 @@
+.contact-company__block {
+    margin: 103px auto 153px 411px;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1500px) {
+    .contact-company__block{
+        max-width: 780px;
+        margin: 88px auto 0;
+    }
+  }
+@media (max-width: 400px) {
+    .contact-company__block{       
+        margin: 80px auto 0 26px;
+    }
+  }

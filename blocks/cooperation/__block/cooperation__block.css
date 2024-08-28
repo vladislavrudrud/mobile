@@ -1,0 +1,33 @@
+.cooperation__block {
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  margin-bottom: -50px;
+  text-decoration: none;
+  position: relative;
+}
+
+.cooperation__block:hover .cooperation__subtitle {
+  visibility: visible;
+}
+/* @media (max-width: 1919px) {
+  .cooperation__block {
+    width: 24.6%;
+  }
+} */
+@media (max-width: 1100px) {
+  .cooperation__block {
+    width: 204px;
+  }
+}
+@media (max-width: 740px) {
+  .cooperation__block {
+    width: 100px;
+    margin: 0 0 -30px;
+    }
+  .cooperation__block:hover .cooperation__text {
+   height: auto;
+   margin-bottom: 8px;
+  }
+}

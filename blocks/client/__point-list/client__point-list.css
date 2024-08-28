@@ -1,0 +1,9 @@
+.client__point-list {
+    margin-bottom: 40px;
+}
+@media (max-width: 740px) {
+    .client__point-list {
+        margin-bottom: 10px;
+
+    }
+  }

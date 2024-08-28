@@ -1,0 +1,7 @@
+
+@media (max-width: 1400px) {
+    .flash-call__block {
+        display: flex;
+        flex-direction: column;
+    }
+  }

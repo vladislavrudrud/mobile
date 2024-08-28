@@ -1,0 +1,11 @@
+.flash-info__block-list {
+    padding-left: 47px;
+    list-style-type: none;
+    margin: 0;
+}
+@media (max-width: 740px) {
+    .flash-info__block-list {
+        padding-left: 25px;
+
+    }
+  }

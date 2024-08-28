@@ -1,0 +1,27 @@
+.calls-advantages__block:first-child {
+    width: 351px;
+}
+.calls-advantages__block:nth-child(2) {
+    width: 327px;
+}
+.calls-advantages__block:last-child {
+    width: 333px;
+}
+.calls-advantages__block {
+    text-align: center;
+}
+@media (max-width: 1050px) {
+    .calls-advantages__block{
+        width: 33%;
+    }
+    .calls-advantages__block:last-child {
+        margin: 0 auto;
+    }
+     
+   }
+@media (max-width: 70px) {
+    .calls-advantages__block{
+        width: 100%;
+    }
+     
+   }

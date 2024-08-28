@@ -1,0 +1,10 @@
+.authorization-phone__title-block {
+    color: var(--main-black, #141414);
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 12px 0 0 8px;
+}

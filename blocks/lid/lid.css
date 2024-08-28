@@ -1,0 +1,33 @@
+.lid .target__img {
+    width: auto;
+    margin-top: 58px;
+    
+}
+.lid .flash-call__text {
+    width: 991px;
+    margin-bottom: 0;
+}
+@media (max-width:1400px) {
+    .lid .flash-call__text {
+        width: 601px;
+        margin-bottom: 0;
+    }
+    .lid .target__img {
+        width: 30%;
+        margin: 50px 0 0;
+        
+    }
+
+}
+@media (max-width:740px) {
+    .lid .flash-call__text {
+        width: 327px;
+        margin-bottom: 0;
+    }
+    .lid .target__img {
+        width: 134px;
+        margin: 40px auto 0 ;
+        
+    }
+
+}

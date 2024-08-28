@@ -1,0 +1,21 @@
+.scheme__img {
+    max-height: 297px;
+    }
+.scheme__block:nth-child(3) .scheme__img{
+    max-height: 260px;
+    }
+.scheme__block:nth-child(5) .scheme__img{
+    max-height: 313px;
+    }
+@media (max-width: 700px) {
+        .scheme__img{
+            max-height: 220px;
+    
+        }
+        .scheme__block:nth-child(3) .scheme__img{
+            max-height: 190px;
+            }
+        .scheme__block:nth-child(5) .scheme__img{
+            max-height: 200px;
+            }
+      }

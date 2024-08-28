@@ -1,0 +1,20 @@
+.flash-call__info {
+    color: #FB0000;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+}
+
+@media (max-width: 1400px) {
+    .flash-call__info {
+        order: 6;
+        margin-top: 20.82px;
+    }
+  }
+  @media (max-width: 740px) {
+    .flash-call__info {
+        font-size: 12px;
+    }
+  }

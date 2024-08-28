@@ -1,0 +1,20 @@
+.plan__point {
+    color: #000;
+font-size: 17.33px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 33px;
+}
+.plan__point:last-child {
+    margin-bottom: 0;
+}
+@media (max-width:550px) {
+    .plan__point{
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .plan__point:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,4 @@
+.schema-work__block {
+    display: flex;
+    flex-direction: row;
+}

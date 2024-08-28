@@ -1,0 +1,27 @@
+.advantages-company__blocks {
+    display: flex;
+    flex-direction: row;
+    width: 1255px;
+    margin: 125px auto 140px auto;
+}
+@media (max-width: 1900px) {
+    .advantages-company__blocks {
+        margin: 90px auto 140px;
+        width: 80%;
+      
+    }
+  }
+  @media (max-width: 1400px) {
+    .advantages-company__blocks {
+        margin: 90px auto 140px;
+        width: 95%;
+      
+    }
+  }
+@media (max-width: 770px) {
+    .advantages-company__blocks {
+        flex-direction: column;
+        width: 250px;
+        margin: 40px auto 26px;
+    }
+  }

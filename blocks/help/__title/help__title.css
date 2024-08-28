@@ -1,0 +1,18 @@
+.help__title {
+font-size: 40px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--main-black, #141414);
+width: 100%;
+margin: 0 0 104px 0;
+
+}
+@media (max-width: 600px) {
+    .help__title{
+        margin: 0 0 40px 0;
+        font-size: 22px;
+
+    }
+  }

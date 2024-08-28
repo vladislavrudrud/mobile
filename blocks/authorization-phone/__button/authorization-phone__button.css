@@ -1,0 +1,23 @@
+.authorization-phone__button {
+border-radius: 20px;
+border: 0.5px solid var(--main-black, #141414);
+max-width: 98px;
+min-width: 60px;
+height: 30px;
+flex-shrink: 0;
+background-color: #fff;
+color: var(--main-black, #141414);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+
+}
+.authorization-phone__buttons{
+margin: -8px 0 20px 0 ;
+}
+.phone-button__position {
+ margin: 0 33px 0 36px;
+ width: 98px;
+}

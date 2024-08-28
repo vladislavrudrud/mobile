@@ -1,0 +1,45 @@
+.service {
+position: absolute;
+top: 55px;
+left: 503px;
+color: var(--main-black, #141414);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%;
+text-transform: uppercase;
+list-style-type:none;
+background: linear-gradient(113deg, rgba(255, 255, 255, 0.38) 4.91%, rgba(252, 255, 253, 0.00) 135.61%);
+padding: 0;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(50px);
+z-index: 1;
+display: none;
+}
+.background {
+
+}
+
+@media (max-width: 1200px) {
+    .service {
+      top: 600px;
+      right: 551x;
+      position: static;
+      backdrop-filter: none;
+      background: none;
+      box-shadow: none;
+      margin: -40px 0 20px    
+    }
+  }
+@media (max-width: 1200px) {
+    .uslugi{
+      display: flex;
+      flex-direction: column;
+      margin-top: -30px;
+      margin-bottom: 40px;
+      background-image: url(../../images/strelka.svg);
+      background-repeat: no-repeat;
+      background-position: right top;
+    }
+  }
+

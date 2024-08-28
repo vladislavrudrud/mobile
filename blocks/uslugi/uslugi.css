@@ -1,0 +1,15 @@
+.uslugi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width: 1200px) {
+    .uslugi{
+      flex-direction: column;
+      margin-top: -30px;
+      margin-bottom: 40px;
+      background-image: url(../../images/strelka.svg);
+      background-repeat: no-repeat;
+      background-position: right top;
+    }
+  }

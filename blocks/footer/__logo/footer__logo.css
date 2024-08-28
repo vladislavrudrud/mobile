@@ -1,0 +1,19 @@
+.footer__logo {
+    max-height: 90px;
+}
+@media (max-width: 1060px) {
+    .footer__logo {
+        max-height: 53px;
+        margin-left: 35px;
+        text-align: start;
+    }
+  }
+
+@media (max-width: 765px) {
+    .footer__logo {
+        max-height: 33px;
+        margin-left: 35px;
+        text-align: start;
+        margin-right: 500px;
+    }
+  }

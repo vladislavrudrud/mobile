@@ -1,0 +1,35 @@
+.calls-advantages__blocks {
+    margin: 0 auto 260px auto;
+    width: 85%;
+    display: flex;
+    gap: 96px;
+}
+@media (max-width: 1900px) {
+    .calls-advantages__blocks{
+        margin: 0 auto 260px auto;
+    }
+     
+   }
+   @media (max-width: 1263px) {
+    .calls-advantages__blocks{
+        width: 1000px;
+    }
+     
+   }
+   @media (max-width: 1050px) {
+    .calls-advantages__blocks{
+        width: 724px;
+        gap: 46px;
+        margin: 0 auto 100px auto;
+        flex-wrap: wrap;
+    }
+     
+   }
+   @media (max-width: 700px) {
+    .calls-advantages__blocks{
+        width: 264px;
+        gap: 25px;
+        margin: 0 auto 60px auto;
+        flex-wrap: wrap;
+    }
+}

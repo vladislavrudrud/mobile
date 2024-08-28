@@ -1,0 +1,10 @@
+.authorization-phone__info-block {
+color: var(--main-black, #141414);
+font-family: 'Montserrat', 'Arial', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 271px;
+margin: 20px auto 20px;
+}

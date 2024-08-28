@@ -1,0 +1,13 @@
+
+@media (max-width: 740px) {
+    .price-page__title {
+        margin: auto 40px auto 0;
+        width: 50%;
+    } 
+   }
+   @media (max-width: 500px) {
+    .price-page__title {
+        width: 231px;
+        margin: 0 26px 21px 0;
+    } 
+   }

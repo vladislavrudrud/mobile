@@ -1,0 +1,9 @@
+.plan__schema {
+    display: flex;
+    margin: 0 64px 60px 60px;
+}
+@media (max-width:550px) {
+    .plan__schema{
+        margin: 0 28px 30px 26.52px;
+    }
+}

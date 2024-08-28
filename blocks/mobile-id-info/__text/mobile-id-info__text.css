@@ -1,0 +1,6 @@
+.mobile-id-info__text {
+margin: 0 auto 10px;
+}
+.mobile-id-info__text:last-child {
+    margin: 0;
+    }

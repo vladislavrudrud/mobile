@@ -1,0 +1,15 @@
+.detail {
+    margin: 0 288px 0 256px;
+}
+@media (max-width: 1900px) {
+    .detail {
+        width: 90%;
+        margin: 0 auto 160px auto;
+    }
+  }
+  @media (max-width: 700px) {
+    .detail {
+        width: 90%;
+        margin: 0 auto 60px auto;
+    }
+  }

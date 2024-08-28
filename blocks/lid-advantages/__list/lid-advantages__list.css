@@ -1,0 +1,16 @@
+.lid-advantages__list {
+    list-style-type: decimal;
+    padding-left: 28px;
+    color: var(--main-black, #141414);
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 90px;
+}
+@media (max-width:700px) {
+    .lid-advantages__list{
+        margin-bottom: 60px;
+        font-size: 12px;
+    }
+}

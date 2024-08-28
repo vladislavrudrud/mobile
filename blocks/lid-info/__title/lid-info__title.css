@@ -1,0 +1,15 @@
+.lid-info__title {
+    color: var(--main-black, #141414);;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 40px;
+}
+@media (max-width:700px) {
+    .lid-info__title{
+        margin-top: 30px;
+        font-size: 12px;
+
+    }
+}

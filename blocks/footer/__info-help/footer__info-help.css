@@ -1,0 +1,8 @@
+.footer__info-help {
+    margin-top: 22px;
+}
+@media (max-width: 765px) {
+    .footer__info-help {
+        margin-top: 36px;
+    }
+  }

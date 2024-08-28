@@ -1,0 +1,12 @@
+.uslugi-calls__image {
+    display: block;
+    width: 58.28%;
+    margin: 0 auto 120px;
+}
+@media (max-width: 800px) {
+    .uslugi-calls__image{
+        width: 336px;
+        margin: 0 auto 60px;
+    }
+     
+   }

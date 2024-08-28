@@ -1,0 +1,13 @@
+.pluses__text {
+    color: var(--main-black, #141414);
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+@media (max-width:650px) {
+    .pluses__text {
+        font-size: 12px;
+
+    }
+}

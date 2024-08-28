@@ -1,0 +1,15 @@
+.need {
+    margin: 0;
+}
+@media (max-width:1900px) {
+    .need{
+        width: 90%;
+        margin:  0 0 0 50px;
+    }
+}
+@media (max-width:700px) {
+    .need{
+        width: 90%;
+        margin:  0 0 0 20px;
+    }
+}

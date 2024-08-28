@@ -1,0 +1,27 @@
+.service__link {
+    margin: 0 56px 14px 30px;
+    width: 249px;
+}
+.service__link:nth-child(1) {
+    margin: 30px 56px 14px 30px;
+}
+.service__link:nth-child(7) {
+    margin: 0 56px 42px 30px;
+}
+@media (max-width: 1200px) {
+    .service__link {
+        color: var(--main-black, #141414);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 17.5px */
+        text-transform: uppercase; 
+        margin: 0 56px 14px 50px;
+    }
+    .service__link:nth-child(1) {
+        margin: 10px 56px 14px 50px;
+    }
+    .service__link:nth-child(7) {
+        margin: 0 56px 0 50px;
+    }
+  }

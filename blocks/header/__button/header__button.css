@@ -1,0 +1,32 @@
+.header__button {
+border-radius: 10px;
+background: linear-gradient(90deg, #62D9E2 1.75%, #73F6B4 94.18%);
+width: 166px;
+height: 53px;
+flex-shrink: 0;
+border-style: none;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+font-family: 'Montserrat', 'Arial', sans-serif;
+margin: 0 0 0 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+@media (max-width: 1400px) {
+    .header__button {
+        width: 13%;
+    }
+  }
+  @media (max-width: 1200px) {
+    .header__button {
+      width: 40%;
+      margin-bottom: 150px;
+    }
+  }

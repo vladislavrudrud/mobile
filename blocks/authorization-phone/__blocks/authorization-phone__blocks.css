@@ -1,0 +1,60 @@
+.authorization-phone__blocks {
+    background-image: url(../../../images/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 64.75%;
+    margin: 0 402px 0 auto;
+    position: relative;
+    height: 769px;
+}
+
+@media (max-width: 1919px) {
+    .authorization-phone__blocks {
+        margin: 0 auto 0 auto;
+        width: 65%;
+    }
+  }
+
+@media (max-width: 1700px) {
+    .authorization-phone__blocks {
+        width: 74%;
+    }
+  }
+
+@media (max-width: 1550px) {
+    .authorization-phone__blocks {
+        width: 82%;
+    }
+  }
+
+@media (max-width: 1400px) {
+    .authorization-phone__blocks {    
+        width: 87%;
+    }
+}
+
+
+  @media (max-width: 1300px) {
+    .authorization-phone__blocks {
+        margin: 0 auto 0 auto;
+        width: 95%;
+    }
+  }
+  @media (max-width: 1100px) {
+    .authorization-phone__blocks {
+        max-height: 650px;
+    }
+  }
+  @media (max-width: 900px) {
+    .authorization-phone__blocks {
+        width: 100%;
+        background-image: url(../../../images/phone.jpg);
+        background-position: right;
+        margin-top: -15px;
+        height: 775px;
+    }
+  }
+  .authorization-phone__block:hover .popup-authorization {
+   display: flex;
+}

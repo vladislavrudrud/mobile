@@ -1,0 +1,16 @@
+.plan__caption {
+    color: var(--main-black, #141414);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 85.38%;
+margin: 60px auto 120px;
+text-align: center;
+}
+@media (max-width: 700px) {
+    .plan__caption{
+       display: none;
+    }
+     
+   }

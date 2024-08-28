@@ -1,0 +1,23 @@
+.uslugi-calls-info__text-info {
+    color: var(--main-black, #141414);
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+list-style-type: none;
+padding-left: 0;
+}
+@media (max-width: 900px) {
+    .uslugi-calls-info__text-info{
+       font-size: 14px;
+    }
+     
+   }
+   @media (max-width: 500px) {
+    .uslugi-calls-info__text-info{
+       font-size: 12px;
+    }
+     
+   }

@@ -1,0 +1,11 @@
+.scheme__block-info {
+    display: flex;
+    width: 390px;
+    margin: 30px auto 43px;
+}
+@media (max-width: 700px) {
+    .scheme__block-info {
+        width: 258px;
+
+    }
+  }

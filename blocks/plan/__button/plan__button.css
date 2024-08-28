@@ -1,0 +1,24 @@
+.plan__button {
+    color: #FFF;
+text-align: center;
+font-size: 17.33px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+width: 230px;
+height: 50px;
+border-radius: 8px;
+background: linear-gradient(90deg, #62D9E2 1.75%, #73F6B4 94.18%);
+border: none;
+margin: 0 auto 0 56px
+}
+
+@media (max-width:550px) {
+    .plan__button {
+        display: block;
+        width: 169.746px;
+height: 37.249px;
+margin: 0 auto;
+    }
+}

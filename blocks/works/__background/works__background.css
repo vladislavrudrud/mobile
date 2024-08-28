@@ -1,0 +1,18 @@
+.works__background {
+    width: 100%;
+    position: relative;
+}
+.works__background-min-width {
+    display: none;
+}
+@media (max-width: 700px) {
+    .works__background{
+        display: none;
+    }
+    .works__background-min-width {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+   }
+

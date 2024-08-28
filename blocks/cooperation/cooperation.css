@@ -1,0 +1,14 @@
+.cooperation {
+    background: #292F36;
+    padding-top: 140px;
+    padding-bottom:62px ;
+    margin-top: 200px;
+    width: 100%;
+}
+@media (max-width: 740px) {
+    .cooperation{
+        padding-top: 50px;
+        margin-top: 70px;
+        padding-bottom:80px;
+    }
+  }

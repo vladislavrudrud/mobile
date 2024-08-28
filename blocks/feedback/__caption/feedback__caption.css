@@ -1,0 +1,14 @@
+.feedback__caption {
+color: var(--main-black, #141414);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+}
+@media (max-width: 1000px) {
+    .feedback__caption{
+        font-size: 10px;
+        margin: 0;
+    }
+  }

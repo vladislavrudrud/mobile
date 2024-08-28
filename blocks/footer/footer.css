@@ -1,0 +1,14 @@
+.footer {
+    background: #292F36;
+    padding-top: 44px;
+}
+/* @media (min-width: 1200px) {
+    .footer {
+
+    }
+  } */
+@media (max-width: 765px) {
+    .footer {
+        padding-top: 20px;
+    }
+  }

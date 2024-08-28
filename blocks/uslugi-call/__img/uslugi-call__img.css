@@ -1,0 +1,21 @@
+@media (max-width: 1400px) {
+    .uslugi-call__img {
+        width: 400px;
+        margin-top: 0;
+    }
+     
+   }
+   @media (max-width: 740px) {
+    .uslugi-call__img {
+        width: 340px;
+        margin-top: 41px;
+    }
+     
+   }
+   @media (max-width: 420px) {
+    .uslugi-call__img {
+        width: 281.827px;
+        height: 257px;
+    }
+     
+   }

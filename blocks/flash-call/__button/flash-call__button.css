@@ -1,0 +1,31 @@
+.flash-call__button {
+border-radius: 10px;
+background: linear-gradient(90deg, #62D9E2 1.75%, #73F6B4 94.18%);
+color: #FFF;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+width: 378px;
+margin: 30px 0 0;
+padding: 20px 0;
+border: none;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.button-margin {
+    margin-top: 6px;
+}
+@media (max-width: 740px) {
+    .flash-call__button {
+        margin: 22px 0 0;
+        width: 208px;
+        padding: 7px 0;
+        font-size: 13px;
+        border-radius: 5.498px;
+    }
+  }

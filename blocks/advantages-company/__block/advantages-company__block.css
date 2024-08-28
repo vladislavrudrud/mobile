@@ -1,0 +1,33 @@
+.advantages-company__block {
+    flex-direction: column;
+    margin-right: 111px;
+    text-align: center;
+    
+}
+.advantages-company__block:first-child {
+    width: 35.72%;
+}
+.advantages-company__block:ntn-child(2) {
+    width:  66.01%;
+}
+.advantages-company__block:last-child {
+    margin-right: 0;
+    width: 31.66%;
+}
+@media (max-width: 770px) {
+    .advantages-company__block:first-child {
+        width: 143px;
+    }
+    .advantages-company__block:ntn-child(2) {
+        width: 250px;
+    }
+    .advantages-company__block:last-child {
+        margin-right: auto;
+        width: 190px;
+    }
+    .advantages-company__block {
+        margin:  0 auto;
+
+        
+    }
+  }

@@ -1,0 +1,15 @@
+.client__point {
+    margin-bottom: 25px;
+}
+.client__point:last-child {
+    margin-bottom: 0;
+}
+@media (max-width: 740px) {
+    .client__point {
+        margin-bottom: 15px;
+    }
+    .client__point:last-child {
+        margin-bottom: 0;
+    }
+    
+  }

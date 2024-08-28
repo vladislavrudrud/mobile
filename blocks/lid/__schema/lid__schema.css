@@ -1,0 +1,11 @@
+.lid__schema {
+    display: flex;
+    margin: 0 95px 0 25px;
+}
+@media (max-width:700px) {
+    .lid__schema{
+       font-size: 10px;
+       margin: 0 37px 0 13px;
+
+    }
+}

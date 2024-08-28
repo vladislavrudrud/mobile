@@ -1,0 +1,10 @@
+.service-work__list {
+    list-style-image:url(../../../images/Ellipse20.jpg);
+    padding-left: 18px;
+    margin: 0;
+}
+@media (max-width:530px) {
+    .service-work__list{
+        padding-left: 17px;
+    }
+}

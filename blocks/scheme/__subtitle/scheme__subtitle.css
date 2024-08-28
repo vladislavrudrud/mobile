@@ -1,0 +1,37 @@
+.scheme__subtitle {
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 152px;
+margin: 0 0 0 35.45px;
+line-height: 3;
+display: block;
+}
+@media (min-width: 700px) {
+    .star{
+        background-image: url(../../../images/star.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .fire{
+        background-image: url(../../../images/hot-deal\ 1.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    
+  }
+@media (max-width: 700px) {
+    .star{
+    display: none;
+    }
+    .fire{
+        display: none;
+    }
+    .scheme__subtitle{
+        font-size: 14px;
+        display: block;
+            }
+    
+  }

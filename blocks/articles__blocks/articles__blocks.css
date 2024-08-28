@@ -1,0 +1,31 @@
+.articles__blocks {
+    width: 1410px;
+    margin: 40px auto 100px;
+    gap: 40px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (max-width:1440px) {
+  .articles__blocks {
+    width: 1010px;
+  }
+  
+
+}
+@media (max-width:1000px) {
+    .articles__blocks {
+      width: 800px;
+    }
+    
+  
+  }
+  @media (max-width:830px) {
+    .articles__blocks {
+      flex-direction: column;
+      width: 88.8%;
+      gap: 20px;
+    }
+    
+  
+  }

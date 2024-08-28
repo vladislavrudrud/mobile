@@ -1,0 +1,17 @@
+.price__title {
+    color: var(--main-black, #141414);
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin: 0 auto 14px;
+}
+@media (max-width: 740px) {
+    .price__title{
+        font-size: 14px;
+        width: 83.03%;
+        margin: 0 auto 20px;
+
+    }
+  }

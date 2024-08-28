@@ -1,0 +1,14 @@
+.footer__links {
+    width: 73.44%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 0 34px;
+}
+@media (max-width: 765px) {
+    .footer__links{
+        width: 88.8%;
+        font-size: 8px;
+        padding: 8px 0 8px;
+    }
+  }

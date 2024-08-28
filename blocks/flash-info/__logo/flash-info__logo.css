@@ -1,0 +1,16 @@
+.flash-info__logo {
+    margin-right: 46px;
+}
+@media (max-width: 1000px) {
+    .flash-info__logo{
+        margin-top: -126px;
+
+    }
+  }
+  @media (max-width: 740px) {
+    .flash-info__logo{
+        width: 144px;
+        margin-top: -34px;
+
+    }
+  }

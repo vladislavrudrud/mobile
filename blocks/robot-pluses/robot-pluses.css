@@ -1,0 +1,21 @@
+.robot-pluses {
+    margin: 0px 379px 80px 0;
+}
+@media (max-width:1910px) {
+    .robot-pluses {
+        width: 90%;
+        margin: 0 auto 80px 0;
+    }
+}
+@media (max-width:650px) {
+    .robot-pluses {
+        width: 90%;
+        margin: 0 18px 90px 31px;
+    }
+}
+@media (max-width:400px) {
+    .robot-pluses {
+        width: auto;
+        margin: 0 18px 90px 31px;
+    }
+}

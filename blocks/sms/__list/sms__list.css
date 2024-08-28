@@ -1,0 +1,19 @@
+.sms-robot__list {
+    color: var(--main-black, #141414);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    list-style-image: none;
+}
+.sms-robot__list .robot__text:first-child {
+    margin-bottom: 0;
+}
+.sms-robot__list .robot__text:nth-child(2) {
+    margin-top: 5px;
+}
+@media (max-width:700px) {
+    .sms-robot__list {
+        padding-left: 16px;
+
+    }
+}

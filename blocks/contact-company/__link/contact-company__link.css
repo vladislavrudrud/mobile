@@ -1,0 +1,21 @@
+.contact-company__link {
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.contact-company__link:first-child{
+    margin-top: 0;
+}
+@media (max-width: 900px) {
+    .contact-company__link{
+        font-size: 14px;
+        margin-top: 32px;
+    }
+  }

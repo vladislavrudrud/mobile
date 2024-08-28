@@ -1,0 +1,19 @@
+.works__title {
+    color: var(--main-black, #141414);
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+width: 423px;
+margin: 0 auto 40px;
+}
+@media (max-width: 800px) {
+    .works__title {
+        width: 220px;
+        font-size: 22px;
+        text-align: center;
+        margin: 0 auto 60px;
+    }
+     
+   }

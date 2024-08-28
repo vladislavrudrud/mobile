@@ -1,0 +1,22 @@
+.uslugi-call__title {
+    margin: 0 auto 80px auto;
+    text-align: center;
+}
+@media (max-width: 1900px) {
+    .uslugi-call__title {
+        margin: 0 auto 80px auto;
+    }
+     
+   }
+   @media (max-width: 1400px) {
+    .uslugi-call__title {
+        width: 80%;
+    }
+     
+   }
+   @media (max-width: 500px) {
+    .uslugi-call__title {
+        font-size: 22px;
+    }
+     
+   }

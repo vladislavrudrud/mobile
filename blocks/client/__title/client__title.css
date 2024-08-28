@@ -1,0 +1,28 @@
+.client__title {
+    background: linear-gradient(180deg, #73F7B3 0%, #60D7E5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+.client__title:first-child {
+margin-top: 0px;
+}
+@media (max-width: 1400px) {
+    .client__title {
+        font-size: 28px;
+        margin-bottom: 20px;
+
+    }
+  }
+@media (max-width: 740px) {
+    .client__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+
+    }
+  }

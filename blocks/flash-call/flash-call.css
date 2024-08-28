@@ -1,0 +1,39 @@
+.flash-call {
+    width: 1380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px auto 108px 0;
+}
+@media (min-width: 1940px) {
+  .flash-call {
+      margin: 100px auto 108px auto;
+
+  }
+}
+@media (max-width: 1910px) {
+    .flash-call {
+        margin: 100px auto 108px auto;
+
+    }
+  }
+  @media (max-width: 1420px) {
+    .flash-call {
+        flex-direction: column;
+        width: 96%;
+
+    }
+  }
+  @media (max-width: 740px) {
+    .flash-call {
+        margin: 40px auto 123px auto;
+
+    }
+  }
+  @media (max-width: 440px) {
+    .flash-call {
+        width: 340px;
+        margin: 40px auto 60px 10px;
+
+    }
+  }

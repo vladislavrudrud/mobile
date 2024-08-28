@@ -1,0 +1,13 @@
+.cooperation__image {
+    height: 125px;
+    width: 125px;
+}
+.cooperation__block:hover .cooperation__image {
+    z-index: 2;
+}
+@media (max-width: 740px) {
+    .cooperation__image{
+        width: 53px;
+        height: 51px;
+    }
+  }

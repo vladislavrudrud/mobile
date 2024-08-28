@@ -1,0 +1,14 @@
+.plan__blocks {
+    width: 92%;
+    margin: 0 auto 0 0;
+}
+@media (max-width:700px) {
+    .plan__blocks{
+        margin: 0 auto 60px;
+    }
+}
+@media (max-width:550px) {
+    .plan__blocks{
+        width: 89.06% ;
+    }
+}

@@ -1,0 +1,18 @@
+.price__line {
+    height: 503px;
+}
+@media (max-width: 1300px) {
+    .price__line {
+        height: 569px;
+    }     
+   }
+   @media (max-width: 870px) {
+    .price__line {
+        height: 620px;
+    }     
+   }
+   @media (max-width: 650px) {
+    .price__line {
+        height: 230px;
+    }     
+   }

@@ -1,0 +1,22 @@
+.info-company {
+    width: 1502px;
+    margin: 100px auto 155px;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1502px) {
+    .info-company {
+        width: 96%;
+    }
+  }
+  @media (max-width: 1100px) {
+    .info-company {
+        flex-direction: column;
+    }
+  }
+@media (max-width: 700px) {
+    .info-company {
+        width: 100%;
+        margin: 40px auto 80px;
+    }
+  }

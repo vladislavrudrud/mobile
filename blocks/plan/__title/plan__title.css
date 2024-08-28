@@ -1,0 +1,24 @@
+.plan__title {
+    width: 96%;
+    background: linear-gradient(180deg, #73F7B3 0%, #60D7E5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+margin: 0 auto ;
+text-align: center;
+}
+@media (max-width:1240px) {
+    .plan__title {
+        font-size: 28px;
+    }
+}
+@media (max-width:550px) {
+    .plan__title {
+        font-size: 22px;
+    }
+}

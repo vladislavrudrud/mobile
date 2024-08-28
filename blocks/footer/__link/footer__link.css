@@ -1,0 +1,9 @@
+.footer__link {
+color: var(--White, #FFF);
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+text-decoration: none;
+}
+
+    

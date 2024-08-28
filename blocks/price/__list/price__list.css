@@ -1,0 +1,10 @@
+.price__list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 46px;
+}
+@media (max-width: 650px) {
+    .price__list {
+        padding-left: 22px;
+    }     
+   }

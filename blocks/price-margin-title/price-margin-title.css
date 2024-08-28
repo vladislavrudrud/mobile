@@ -1,0 +1,8 @@
+.price-margin-title {
+    margin: 120px auto 60px;
+}
+@media (max-width: 950px) {
+    .price-margin-title {
+        margin: 60px auto 30px;
+    }     
+   }

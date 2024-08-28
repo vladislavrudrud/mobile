@@ -1,0 +1,11 @@
+.robot-example {
+    margin: 0 auto 120px;
+    width: 100%;
+}
+@media (max-width:700px) {
+    .robot-example {
+        width: 95%;
+        margin: 0 auto 80px;
+
+    }
+}

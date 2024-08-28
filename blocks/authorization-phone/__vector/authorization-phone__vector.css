@@ -1,0 +1,47 @@
+.authorization-phone__vector {
+    position: absolute;
+    opacity: 0;
+}
+.voice-postion{
+    bottom: 423px;
+    left: 50px;
+}
+.sms-position {
+    bottom: 150px;
+    left: 130px;    
+}
+.mobile-position{
+    bottom: 173px;
+    right: 91px;    
+}
+.call-position{
+    top: 99px;
+    right: 60px;    
+}
+.sim-position{
+    top: 0;
+    left: 476px;
+}
+.authorization-phone__vector:hover {
+    transform: scale(6);
+}
+@media (max-width: 1090px) {
+    .sim-position{
+        top: 40px;
+        left: 356px;
+    }
+  }
+  @media (max-width: 900px) {
+    .sim-position{
+        top: 90px;
+        left: 276px;
+    }
+  }
+.authorization-phone__vector{
+   transform: scale(1.5);
+}
+@media (max-width: 1000px) {
+    .authorization-phone__vector{
+       display: none;
+    }
+  }

@@ -1,0 +1,13 @@
+
+@media (max-width: 1400px) {
+    .uslugi-call__block {
+        margin-right: 70px;
+        width: 660px;
+    }     
+   }
+   @media (max-width: 740px) {
+    .uslugi-call__block {
+        width: 100%;
+        margin-right: 0;
+    }     
+   }

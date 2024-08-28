@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color:black
+}
+.active {
+    color:  rgba(114, 230, 194, 1);
+}
+.link:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.scheme {
+    max-width: 1407px;
+    margin: 0 auto;
+}
+@media (max-width: 1460px) {
+    .scheme {
+        width: 928px;
+
+    }
+  }
+  @media (max-width: 1000px) {
+    .scheme {
+        width: 449px;
+
+    }
+  }
+  @media (max-width: 700px) {
+    .scheme {
+        align-items: center;
+        justify-content: center;
+
+    }
+  }
+  @media (max-width: 480px) {
+    .scheme{
+        width: 100%;
+
+    }
+  }

@@ -1,0 +1,10 @@
+.client__list {
+    list-style-image: url(../../../images/Ellipse3.svg);
+    padding-left: 25px;
+}
+@media (max-width: 740px) {
+    .client__list {
+        list-style-image: none;
+
+    }
+  }

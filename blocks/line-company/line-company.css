@@ -1,0 +1,15 @@
+.line-company {
+    width: 100%;
+    background: url(../../images/Glass_effect1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 700px) {
+    .line-company{
+        align-items: flex-end;
+      height: 128px; 
+      background: url(../../images/Glass.jpg);
+      margin: 41px auto;
+    }
+  }

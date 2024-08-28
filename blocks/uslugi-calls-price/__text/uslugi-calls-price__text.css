@@ -1,0 +1,16 @@
+.uslugi-calls-price__text {
+    margin: 0 0 0 -40px;
+}
+@media (max-width: 1050px) {
+    .uslugi-calls-price__text {
+        font-size: 26px;
+    }
+     
+   }
+   @media (max-width: 550px) {
+    .uslugi-calls-price__text {
+        font-size: 12px;
+        margin: 0 0 0 0;
+    }
+     
+   }

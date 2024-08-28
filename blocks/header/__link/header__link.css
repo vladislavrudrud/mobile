@@ -1,0 +1,43 @@
+.header__link {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    margin-right: 0 auto;
+    color: var(--main-black, #141414);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header__link:first-child {
+}
+@media (max-width: 1400px) {
+    .header__link {
+        font-size: 16px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .header__link {
+        width: 271px;
+        margin-left: 28px;
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    .header__link:first-child {
+        margin-top: 90px;
+        width: 300px;
+    }
+    .header__link:nth-child(2) {
+        background-image: url(../../../images/strelka.svg);
+        margin-bottom: 40px;
+        width: 94px;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .header__link:last-child {
+        margin-bottom: 0px;
+    }
+  }
+  

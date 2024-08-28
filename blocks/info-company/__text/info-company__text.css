@@ -1,0 +1,14 @@
+.info-company__text {
+    color: var(--main-black, #141414);
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.5;
+margin: 0 0 38px;
+}
+@media (max-width: 700px) {
+    .info-company__text {
+        font-size: 12px;
+        margin: 0 0 12px;
+    }
+  }

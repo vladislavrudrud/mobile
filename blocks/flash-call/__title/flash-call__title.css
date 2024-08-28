@@ -1,0 +1,17 @@
+.flash-call__title {
+    color: var(--main-black, #141414);;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+width: 731px;
+margin: 0;
+}
+@media (max-width: 1420px) {
+    .flash-call__title {
+       font-size: 22px;
+       width: 100%;
+
+    }
+  }

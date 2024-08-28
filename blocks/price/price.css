@@ -1,0 +1,12 @@
+.price {
+    width: 90.44%;
+    margin: 80px auto 90px;
+    text-align: center;
+}
+@media (max-width: 740px) {
+    .price{
+        margin: 40px auto 60px;
+        width: 94.15%;
+
+    }
+  }

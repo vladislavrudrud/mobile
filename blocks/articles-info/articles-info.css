@@ -1,0 +1,19 @@
+.articles-info {
+    margin: 100px auto 150px;
+    font-size: 22px;
+}
+.articles-info li {
+    margin-bottom: 20px;
+}
+.articles-info .title {
+    background: none;
+    -webkit-text-fill-color: var(--main-black, #141414);
+    font-size: 40px;
+}
+@media (max-width:800px) {
+    .articles-info{
+        font-size: 12px;
+        margin: 30px auto 60px;
+        width: 90%;
+    }
+}

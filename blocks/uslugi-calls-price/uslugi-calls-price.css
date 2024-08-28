@@ -1,0 +1,8 @@
+.uslugi-calls-price {
+    margin:  0 auto 140px;
+}
+@media (max-width: 800px){
+    .uslugi-calls-price{
+        margin:  0 auto 60px;
+    }
+}

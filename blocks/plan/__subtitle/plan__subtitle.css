@@ -1,0 +1,15 @@
+.plan__subtitle {
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin: 0 auto 30px 35px;
+}
+@media (max-width:550px) {
+    .plan__subtitle {
+        font-size: 10px;
+        margin: 0 auto 12px 15px;
+    }
+}

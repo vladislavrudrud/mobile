@@ -1,0 +1,18 @@
+.lid-advantages__title {
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #73F7B3 0%, #60D7E5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0 0 40px;
+}
+@media (max-width:700px) {
+    .lid-advantages__title{
+        margin: 60px 0 20px;
+        font-size: 22px;
+    }
+}

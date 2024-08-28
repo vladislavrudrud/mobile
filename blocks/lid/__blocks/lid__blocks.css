@@ -1,0 +1,11 @@
+.lid__blocks {
+    width: 94%;
+    margin: 0 auto 0 0;
+}
+@media (max-width:1700px) {
+    .lid__blocks{
+        width: 89.06%;
+        margin: 0 auto 0 auto;
+
+    }
+}

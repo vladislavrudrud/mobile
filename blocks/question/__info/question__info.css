@@ -1,0 +1,16 @@
+.question__info {
+color: #838383;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 576px;
+margin: 10px 0 22px;
+}
+@media (max-width: 900px) {
+    .question__info {
+        width: 312px;
+        font-size: 8px;
+    }
+  }

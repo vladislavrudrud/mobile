@@ -1,0 +1,373 @@
+/* main-page стили */
+@import url(../vendor/fonts/stylesheet.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__number/header__number.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-image/header__menu-image.css);
+@import url(../blocks/service/service.css);
+@import url(../blocks/uslugi/uslugi.css);
+@import url(../blocks/service/__link/service__link.css);
+@import url(../blocks/service/__image/service__image.css);
+@import url(../blocks/authorization-phone/authorization-phone.css);
+@import url(../blocks/authorization-phone/__title/authorization-phone__title.css);
+@import url(../blocks/authorization-phone/__blocks/authorization-phone__blocks.css);
+@import url(../blocks/authorization-phone/__block/authorization-phone__block.css);
+@import url(../blocks/authorization-phone/__vector/authorization-phone__vector.css);
+@import url(../blocks/popup-authorization/popup-authorization.css);
+@import url(../blocks/popup-authorization/__vector/line.css);
+@import url(../blocks/authorization-phone/__logo-block/authorization-phone__logo-block.css);
+@import url(../blocks/authorization-phone/__title-block/authorization-phone__title-block.css);
+@import url(../blocks/authorization-phone/__info-block/authorization-phone__info-block.css);
+@import url(../blocks/authorization-phone/__selection/authorization-phone__selection.css);
+@import url(../blocks/authorization-phone/__button-block/authorization-phone__button-block.css);
+@import url(../blocks/authorization-phone/__input/authorization-phone__input.css);
+@import url(../blocks/authorization-phone/__button/authorization-phone__button.css);
+@import url(../blocks/info-block/info-block.css);
+@import url(../blocks/info-block-margin/info-block-margin.css);
+@import url(../blocks/info-block/__title/info-block__title.css);
+@import url(../blocks/info-block/__subtitle/info-block__subtitle.css);
+@import url(../blocks/info-block/__text/info-block__text.css);
+@import url(../blocks/info-block/__button/info-block__button.css);
+@import url(../blocks/info-block/__image/info-block-image.css);
+@import url(../blocks/line-info/line-info.css);
+@import url(../blocks/line-info/__text/line-info__text.css);
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__title/cooperation__title.css);
+@import url(../blocks/cooperation/__blocks/cooperation__blocks.css);
+@import url(../blocks/cooperation/__block/cooperation__block.css);
+@import url(../blocks/cooperation/__block-inside/cooperation-inside__block.css);
+@import url(../blocks/cooperation/__image/cooperation__image.css);
+@import url(../blocks/cooperation/__text/cooperation__text.css);
+@import url(../blocks/cooperation/__subtitle/cooperation__subtitle.css);
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__info/feedback__info.css);
+@import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/feedback/__caption/feedback__caption.css);
+@import url(../blocks/feedback/__data/feedback__data.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__data-text/feedback__data-text.css);
+@import url(../blocks/feedback/__group/feedback__group.css);
+@import url(../blocks/feedback/__logo/feedback__logo.css);
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__data/question__data.css);
+@import url(../blocks/question/__link/question__link.css);
+@import url(../blocks/question/__title/question__title.css);
+@import url(../blocks/question__button/question__button.css);
+@import url(../blocks/question/__info/question__info.css);
+@import url(../blocks/question/__input/question__input.css);
+@import url(../blocks/question/__caption/question__caption.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__main/footer__main.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__info-link/footer__info-link.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__info-help/footer__info-help.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__email/footer__email.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__border/footer__border.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__buttons/popup__buttons.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup-active/popup-active.css);
+@import url(../blocks/link/link.css);
+
+
+
+/* page-company стили */
+@import url(../blocks/container/container.css);
+@import url(../blocks/info-company/info-company.css);
+@import url(../blocks/info-company/__about/info-company__about.css);
+@import url(../blocks/info-company/__title/info-company__title.css);
+@import url(../blocks/info-company/__subtitle/info-company__subtitle.css);
+@import url(../blocks/info-company/__text/info-company__text.css);
+@import url(../blocks/info-company/__list/info-company__list.css);
+@import url(../blocks/info-company/__image/info-company__image.css);
+@import url(../blocks/advantages-company/__title/advantages-company__title.css);
+@import url(../blocks/advantages-company/__blocks/advantages-company__blocks.css);
+@import url(../blocks/advantages-company/__subtitle/advantages-company__subtitle.css);
+@import url(../blocks/advantages-company/__block/advantages-company__block.css);
+@import url(../blocks/advantages-company/__img/advantages-company__img.css);
+@import url(../blocks/line-company/line-company.css);
+@import url(../blocks/line-company/__text/line-company__text.css);
+@import url(../blocks/contact-company/contact-company.css);
+@import url(../blocks/contact-company/__title/contact-company__title.css);
+@import url(../blocks/contact-company/__block/contact-company__block.css);
+@import url(../blocks/contact-company/__links/contact-company__links.css);
+@import url(../blocks/contact-company/__link/contact-company__link.css);
+@import url(../blocks/contact-company/__img/contact-company__img.css);
+@import url(../blocks/contact-company/__text/contact-company__text.css);
+@import url(../blocks/contact-company/__link-icon/contact-company__link-icon.css);
+
+/* uslugi стили */
+
+@import url(../blocks/text/text.css);
+@import url(../blocks/flash-call/flash-call.css);
+@import url(../blocks/flash-call/__block/flash-call__block.css);
+@import url(../blocks/flash-call/__title/flash-call__title.css);
+@import url(../blocks/flash-call/__text/flash-call__text.css);
+@import url(../blocks/flash-call/__price/flash-call__price.css);
+@import url(../blocks/flash-call/__info/flash-call__info.css);
+@import url(../blocks/flash-call/__button/flash-call__button.css);
+@import url(../blocks/flash-call/__img/flash-call__img.css);
+@import url(../blocks/flash-info/flash-info.css);
+@import url(../blocks/flash-info/__title-block/flash-info__title-block.css);
+@import url(../blocks/flash-info/__logo/flash-info__logo.css);
+@import url(../blocks/flash-info/__title/flash-info__title.css);
+@import url(../blocks/flash-info/__block/flash-info__block.css);
+@import url(../blocks/flash-info/__block-list/flash-info__block-list.css);
+@import url(../blocks/flash-info/__block-lists/flash-info__block-lists.css);
+@import url(../blocks/flash-info/__image/flash-info__image.css);
+@import url(../blocks/flash-info/__text/flash-info__text.css);
+@import url(../blocks/client/client.css);
+@import url(../blocks/client/__block/client__block.css);
+@import url(../blocks/client/__title/client__title.css);
+@import url(../blocks/client/__text/client__text.css);
+@import url(../blocks/client/__point/client__point.css);
+@import url(../blocks/client/__point-list/client__point-list.css);
+@import url(../blocks/client/__list/client__list.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/price/__title/price__title.css);
+@import url(../blocks/price/__subtitle/price__subtitle.css);
+@import url(../blocks/price/__caption/price__caption.css);
+ 
+
+    /* authorization стили */
+@import url(../blocks/price-authorization/price-authorization.css);
+@import url(../blocks/price/__title-authorization/price__title-authorization.css);
+@import url(../blocks/scheme/scheme.css);
+@import url(../blocks/scheme/__title/scheme__title.css);
+@import url(../blocks/scheme/__subtitle/scheme__subtitle.css);
+@import url(../blocks/scheme/__blocks/scheme__blocks.css);
+@import url(../blocks/scheme/__block/scheme__block.css);
+@import url(../blocks/scheme/__block-info/scheme__block-info.css);
+@import url(../blocks/scheme/__list/scheme__list.css);
+@import url(../blocks/scheme/__point/scheme__point.css);
+@import url(../blocks/scheme/__button/scheme__button.css);
+@import url(../blocks/scheme/__img/scheme__img.css);
+
+   /* sim-push стили */
+
+@import url(../blocks/scheme-work/scheme-work.css);
+@import url(../blocks/scheme-work/__list/scheme-work__list.css);
+@import url(../blocks/scheme-work/__block/scheme-work__block.css);
+@import url(../blocks/scheme-work/__img/scheme-work__img.css);
+@import url(../blocks/scheme-work/__point/scheme-work__point.css);
+@import url(../blocks/scheme-work/__caption/scheme-work__caption.css);
+@import url(../blocks/info-price/info-price.css);
+@import url(../blocks/info-price/__blocks/info-price__blocks.css);
+@import url(../blocks/info-price/__block/info-price__block.css);
+@import url(../blocks/info-price/__title/info-price__title.css);
+@import url(../blocks/info-price/__text/info-price__text.css);
+@import url(../blocks/info-price/__button/info-price__button.css);
+@import url(../blocks/info-price/__caption/info-price__caption.css);
+
+    /* calls стили */
+@import url(../blocks/info-call/__img/info-call__img.css);
+@import url(../blocks/uslugi-calls-info/__blocks/uslugi-calls-info__blocks.css);
+@import url(../blocks/uslugi-calls-info/__block/uslugi-calls-info__block.css);
+@import url(../blocks/uslugi-calls-info/__image/uslugi-calls-info__image.css);
+@import url(../blocks/uslugi-calls-info/__text/uslugi-calls-info__text.css);
+@import url(../blocks/calls-advantages/__blocks/calls-advantages__blocks.css);
+@import url(../blocks/calls-advantages/__block/calls-advantages__block.css);
+@import url(../blocks/calls-advantages/__title/calls-advantages__title.css);
+@import url(../blocks/calls-advantages/__subtitle/calls-advantages__subtitle.css);
+@import url(../blocks/uslugi-calls/__image/uslugi-calls__image.css);
+@import url(../blocks/uslugi-calls-price/uslugi-calls-price.css);
+@import url(../blocks/uslugi-calls-price/__title/uslugi-calls-price__title.css);
+@import url(../blocks/uslugi-calls-price/__block/uslugi-calls-price__block.css);
+@import url(../blocks/uslugi-calls-price/__text/uslugi-calls-price__text.css);
+@import url(../blocks/uslugi-calls-price/__point/uslugi-calls-price__point.css);
+@import url(../blocks/uslugi-calls-price/__button/uslugi-calls-price__button.css);
+@import url(../blocks/uslugi-calls-price/__list/uslugi-calls-price__list.css);
+@import url(../blocks/works/works.css);
+@import url(../blocks/works/__title/works__title.css);
+@import url(../blocks/works/__background/works__background.css);
+@import url(../blocks/works/__button/works__button.css);
+@import url(../blocks/question/__title-usligi/question__title-usligi.css);
+@import url(../blocks/uslugi-calls-info/uslugi-calls-info.css);
+@import url(../blocks/uslugi-calls-info/__title/uslugi-calls-info__title.css);
+@import url(../blocks/uslugi-calls-info/__text/uslugi-calls-info__info.css);
+@import url(../blocks/uslugi-calls-info/__text-info/uslugi-calls-info__text-info.css);
+@import url(../blocks/text-info/__point/text-info__point.css);
+@import url(../blocks/uslugi-call/uslugi-call.css);
+@import url(../blocks/uslugi-call/__img/uslugi-call__img.css);
+@import url(../blocks/uslugi-call/__blocks/uslugi-call__block.css);
+@import url(../blocks/uslugi-call/__text/uslugi-call__text.css);
+@import url(../blocks/uslugi-call/__title/uslugi-call__title.css);
+
+    /* mobile-id стили */
+
+@import url(../blocks/mobile-id-plan/mobile-id-plan.css);
+@import url(../blocks/mobile-id/__text/mobile-id__text.css);
+@import url(../blocks/plan/__title/plan__title.css);
+@import url(../blocks/plan/__subtitle/plan__subtitle.css);
+@import url(../blocks/plan/__blocks/plan__blocks.css);
+@import url(../blocks/plan/__block/plan__block.css);
+@import url(../blocks/plan/__info/plan__info.css);
+@import url(../blocks/plan/__title-work/plan__title-work.css);
+@import url(../blocks/plan/__schema/plan__schema.css);
+@import url(../blocks/plan/__list/plan__list.css);
+@import url(../blocks/plan/__img/plan__img.css);
+@import url(../blocks/plan/__point/plan__point.css);
+@import url(../blocks/plan/__button/plan__button.css);
+@import url(../blocks/plan/__link/plan__link.css);
+@import url(../blocks/plan/__caption/plan__caption.css);
+@import url(../blocks/price/__link/price__link.css);
+@import url(../blocks/mobile-id-info/mobile-id-info.css);
+@import url(../blocks/mobile-id-info/__text/mobile-id-info__text.css);
+
+    /* price стили  */
+@import url(../blocks/price/__img/price__img.css);
+@import url(../blocks/price-margin-title/price-margin-title.css);
+@import url(../blocks/price/__block/price__block.css);
+@import url(../blocks/price-page/__title/price-page__title.css);
+@import url(../blocks/price-page/__text/price-page__text.css);
+@import url(../blocks/price/__info/price__info.css);
+@import url(../blocks/price/__line/price__line.css);
+@import url(../blocks/price/__list/price__list.css);
+@import url(../blocks/price/__point/price__point.css);
+
+    /* api стили  */
+
+@import url(../blocks/api-margin-title/api-margin-title.css);
+
+    /* robot стили */
+
+@import url(../blocks/robot/robot.css);
+@import url(../blocks/robot-fix-title/robot-fix-title.css);
+@import url(../blocks/robot/__title/robot__title.css);
+@import url(../blocks/robot/__subtitle/robot__subtitle.css);
+@import url(../blocks/robot/__list/robot__list.css);
+@import url(../blocks/robot/__point/robot__point.css);
+@import url(../blocks/robot/__text/robot__text.css);
+@import url(../blocks/robot/__block/robot__block.css);
+@import url(../blocks/robot-pluses/robot-pluses.css);
+@import url(../blocks/pluses/__title/pluses__title.css);
+@import url(../blocks/pluses/__text/pluses__text.css);
+@import url(../blocks/pluses/__list/pluses__list.css);
+@import url(../blocks/pluses/__point/pluses__point.css);
+@import url(../blocks/robot-example/robot-example.css);
+@import url(../blocks/example/__title/example__title.css);
+@import url(../blocks/example/__img/example__img.css);
+@import url(../blocks/example/__text/example__text.css);
+
+ /* sms стили */
+
+ @import url(../blocks/sms/__button/sms__button.css);
+ @import url(../blocks/sms/__list/sms__list.css);
+
+  /* target стили */
+
+@import url(../blocks/target/__img/target__img.css);
+
+    /* nps стили  */
+
+@import url(../blocks/nps-advantages/nps-advantages.css);
+@import url(../blocks/nps-advantages/__title/nps-advantages__title.css);
+@import url(../blocks/nps-advantages/__subtitle/nps-advantages__subtitle.css);
+@import url(../blocks/nps-advantages/__list/nps-advantages__list.css);
+@import url(../blocks/nps-advantages/__point/nps-advantages__point.css);
+@import url(../blocks/nps-example/__title/nps-example__title.css);
+@import url(../blocks/nps-example/__block/nps-example__block.css);
+@import url(../blocks/nps-example/__img/nps-example__img.css);
+@import url(../blocks/nps-example/__text/nps-example__text.css);
+@import url(../blocks/nps-line/nps-line.css);
+@import url(../blocks/nps-line/__text/nps-line__text.css);
+@import url(../blocks/nps-line/__img/nps-line__img.css);
+@import url(../blocks/nps-info/nps-info.css);
+@import url(../blocks/nps-info/__text/nps-info__text.css);
+@import url(../blocks/nps-info/__text-link/nps-info__text-link.css);
+
+ /* api стили  */
+
+ @import url(../blocks/nps-api-text/nps-api-text.css);
+ @import url(../blocks/nps-info/__text-api/nps-info__text-api.css);
+ @import url(../blocks/call-api__list/call-api__list.css);
+
+    /* lid стили */
+@import url(../blocks/lid/lid.css);
+@import url(../blocks/lid/__blocks/lid__blocks.css);
+@import url(../blocks/lid/__title/lid__title.css);
+@import url(../blocks/lid/__subtitle/lid__subtitle.css);
+@import url(../blocks/lid/__schema/lid__schema.css);
+@import url(../blocks/lid/__img/lid__img.css);
+@import url(../blocks/lid/__list-main/lid__list-main.css);
+@import url(../blocks/lid/__point-main/lid__point-main.css);
+@import url(../blocks/lid/__list/lid__list.css);
+@import url(../blocks/lid-info/__title/lid-info__title.css);
+@import url(../blocks/lid-info/__text/lid-info__text.css);
+@import url(../blocks/phone-calls/__list/phone-calls__list.css);
+@import url(../blocks/phone-calls/__point/phone-calls__point.css);
+@import url(../blocks/lid-advantages/__title/lid-advantages__title.css);
+@import url(../blocks/lid-advantages/__list/lid-advantages__list.css);
+
+ /* service-стили */
+
+ @import url(../blocks/service-call/service-call.css);
+ @import url(../blocks/need/need.css);
+ @import url(../blocks/title/title.css);
+ @import url(../blocks/need/__title/need__title.css);
+ @import url(../blocks/service-work/service-work.css);
+ @import url(../blocks/service-work/__img/service-work__img.css);
+ @import url(../blocks/service-work/__list/service-work__list.css);
+ @import url(../blocks/service-work/__point/service-work__point.css);
+ @import url(../blocks/service-work/__sublist/service-work__sublist.css);
+ @import url(../blocks/service-pluses/__title/service-pluses__title.css); 
+
+    /* article стили */
+    @import url(../blocks/articles-info/articles-info.css);
+ @import url(../blocks/articles__title/articles__title.css);
+ @import url(../blocks/articles__blocks/articles__blocks.css);
+ @import url(../blocks/articles__block/articles__block.css);
+ @import url(../blocks/articles__subtitle/articles__subtitle.css);
+ @import url(../blocks/articles__text/articles__text.css);
+ @import url(../blocks/articles__button/articles__button.css);
+ @import url(../blocks/articles__links/articles__links.css);
+ @import url(../blocks/articles__link/articles__link.css);
+
+  /* partners стили */
+
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners-line/partners-line.css);
+@import url(../blocks/partners/__blocks/partners__blocks.css);
+@import url(../blocks/partners/__block/partners__block.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__text/partners__text.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__img-phone/partners__img-phone.css);
+@import url(../blocks/partners/__img-icon/partners__img-icon.css);
+
+    /* help стили */
+
+@import url(../blocks/help/help.css);
+@import url(../blocks/help/__title/help__title.css);
+@import url(../blocks/help/__subtitle/help__subtitle.css);
+@import url(../blocks/help/__list/help__list.css);
+@import url(../blocks/help/__link/help__link.css);
+
+ /* detail стили */
+
+ @import url(../blocks/detail.css);
+ @import url(../blocks/detail/_title/detail__title.css);
+
+
+ @import url(../blocks/login/login.css);
+ @import url(../blocks/login/__title/login__title.css);
+ @import url(../blocks/login/__inputs/login__inputs.css);
+ @import url(../blocks/login/__input/login__input.css);
+ @import url(../blocks/login/__button/login__button.css);
+ @import url(../blocks/login/__caption/login__caption.css);
+ @import url(../blocks/login/__text/login__text.css);
+ @import url(../blocks/login/__link/login__link.css);
+
